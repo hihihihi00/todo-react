@@ -1,0 +1,8 @@
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 100%;
+  background: #393e46;
+  color: #f7ede3;
+}
