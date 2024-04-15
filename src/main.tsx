@@ -65,7 +65,7 @@ export const TodoProvider = ({ children }: { children: React.ReactNode }) => {
     setTodos((prevTodos) => prevTodos.filter((todo) => !todo.completed));
   };
 
-  // 削除ボタンワンクリックで削除
+  // 削除ボタンワンクリック削除
   const removeTodo = (id: string) => {
     setTodos((prevTodos) => prevTodos.filter((todo) => todo.id !== id));
   };
